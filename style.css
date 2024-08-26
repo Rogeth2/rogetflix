@@ -1,0 +1,62 @@
+body {
+    color:rgb(45, 19, 88);
+    background: rgb(5, 218, 5);
+    display: block;
+    margin: 0px;
+    font-family: "New Amsterdam", sans-serif;
+    margin-bottom: 100px;
+}
+
+header { 
+    border-bottom: solid 4px rgb(45, 120, 177);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(45, 120, 177);
+    font-family: "Bungee Tint", sans-serif;
+}
+
+.chamada {
+    background: rgb(5, 218, 141); 
+    padding-bottom: 40px;
+    padding-top:30px;
+    display : flex;
+    justify-content: center;
+}
+
+.texto-de-tema {
+    margin-right:4%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.relacionados-tema {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.relacionados-tema img {
+opacity: 0.5;
+height: 200px;
+}
+
+.relacionados-tema img:hover {
+    opacity:1.0;
+    border: 2px solid purple;
+}
+
+.categoria h2 {
+    color: rgb(201, 3, 3);
+}
